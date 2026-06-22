@@ -150,7 +150,9 @@ This dashboard enables dynamic, interactive evaluation of User Equipment (UE) be
 
 <img width="1920" height="1022" alt="Screenshot (221)" src="https://github.com/user-attachments/assets/3889cea6-9223-4d59-af83-78d99a8f0d43" />
 
+
 ---
+
 
 ### **Deployment \& Local Setup**
 
@@ -158,7 +160,9 @@ This dashboard enables dynamic, interactive evaluation of User Equipment (UE) be
 
 To set up and run this predictive dashboard locally, clone the repository, initialize an isolated virtual environment, and execute the application sequence:
 
+
 ---
+
 
 **1  Clone the Repository**
 
@@ -168,7 +172,9 @@ git clone \[https://github.com/harshit12-web/signal-strength-Predictor.git](http
 
 cd signal-strength-Predictor
 
+
 ---
+
 
 **2  Create a Virtual Environment**
 
@@ -188,7 +194,9 @@ python3 -m venv venv
 
 source venv/bin/activate
 
+
 ---
+
 
 **3  Install Package Dependencies**
 
@@ -196,7 +204,9 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 
+
 ---
+
 
 **4  Launch the Predictive Dashboard**
 
@@ -208,7 +218,9 @@ Note: Your default web browser will automatically open a local interface window 
 
 If the command prompt asks for an email entry, simply press Enter to bypass it.
 
+
 ---
+
 
 ### **🔮 Future Improvements**
 
@@ -219,7 +231,9 @@ If the command prompt asks for an email entry, simply press Enter to bypass it.
 * Smarter AI Tuning: Run automated tuning tests (like GridSearchCV) to adjust the model's inner settings for an even higher performance score.
 * Signal Quality Alerts: Build a system that pops up warning notifications when interference levels block download speeds from reaching their full potential.
 
+
 ---
+
 
 ### **License**
 
