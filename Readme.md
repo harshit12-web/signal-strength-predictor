@@ -110,22 +110,110 @@ Moving sliders instantly updates the underlying input arrays to yield immediate 
 
 * Smart Handling of Clutter: The graphs showed that if you have high signal strength but bad signal quality, the predicted speed drops. This proves the AI accurately simulates real-world network congestion (like a crowded stadium scenario).
 
-Results
-<img width="1920" height="1022" alt="Screenshot (221)" src="https://github.com/user-attachments/assets/f4de6ba2-acd3-44b2-9ada-86b6a60b8748" />
 
 
 
 
+### **Results**
 
 
 
+**1. Model Evaluation Metrics**
 
 
 
+Our validation pipeline maps the performance profiles across the entire dataset to ensure the Random Forest isn't overestimating network capacity:
 
 
 
+Link
 
 
 
+**2. Live Network Simulation Environment**
+
+
+
+This dashboard enables dynamic, interactive evaluation of User Equipment (UE) behaviors under challenging radio link environments:
+
+
+
+Link
+
+
+
+### **Deployment \& Local Setup**
+
+
+
+To set up and run this predictive dashboard locally, clone the repository, initialize an isolated virtual environment, and execute the application sequence:
+
+
+
+**1  Clone the Repository**
+
+
+
+git clone \[https://github.com/harshit12-web/signal-strength-Predictor.git](https://github.com/harshit12-web/signal-strength-Predictor.git)
+
+cd signal-strength-Predictor
+
+
+
+**2  Create a Virtual Environment**
+
+
+
+\# Windows
+
+python -m venv venv
+
+venv\\Scripts\\activate
+
+
+
+\# macOS/Linux
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+
+
+**3  Install Package Dependencies**
+
+
+
+pip install -r requirements.txt
+
+
+
+**4  Launch the Predictive Dashboard**
+
+
+
+streamlit run app.py
+
+Note: Your default web browser will automatically open a local interface window at http://localhost:8501. 
+
+If the command prompt asks for an email entry, simply press Enter to bypass it.
+
+
+
+### **🔮 Future Improvements**
+
+
+
+* Live Traffic Streaming: Connect the system to live, incoming network feeds from active 5G towers instead of static data files.
+* Interactive Network Maps: Add map visuals (like Leaflet or Folium) so you can track signal strength and speed predictions on a real, physical map.
+* Smarter AI Tuning: Run automated tuning tests (like GridSearchCV) to adjust the model's inner settings for an even higher performance score.
+* Signal Quality Alerts: Build a system that pops up warning notifications when interference levels block download speeds from reaching their full potential.
+
+
+
+### **License**
+
+
+
+This project is licensed under the MIT License.
 
