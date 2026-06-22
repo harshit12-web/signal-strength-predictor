@@ -110,6 +110,7 @@ Moving sliders instantly updates the underlying input arrays to yield immediate 
 
 * Smart Handling of Clutter: The graphs showed that if you have high signal strength but bad signal quality, the predicted speed drops. This proves the AI accurately simulates real-world network congestion (like a crowded stadium scenario).
 
+<img width="1920" height="1080" alt="Screenshot (221)" src="https://github.com/user-attachments/assets/89ec364c-a1aa-4c32-b4b5-03261e449519" />
 
 
 
