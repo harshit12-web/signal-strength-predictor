@@ -6,7 +6,7 @@ An end-to-end data engineering and predictive machine learning pipeline designed
 
 Unlike standard static academic scripts, this project bridges data science and software engineering by compiling the underlying machine learning logic into a highly interactive, responsive Streamlit web application for real-time link adaptation simulation.
 
-
+---
 
 ### **Features**
 
@@ -29,8 +29,8 @@ Unlike standard static academic scripts, this project bridges data science and s
 
 
 * Real-World Math Tuning: Blends the machine learning predictions with actual physics rules so the dashboard gives realistic results when you shift the link settings.
----
 
+---
 
 ### **Architecture Overview**
 
@@ -90,7 +90,7 @@ A web framework compiled via Streamlit maps the frozen predictive matrix into me
 
 Moving sliders instantly updates the underlying input arrays to yield immediate speed diagnostics.
 
-
+---
 
 ### **Evaluation Report**
 
