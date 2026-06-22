@@ -179,7 +179,7 @@ cd signal-strength-Predictor
 
 **2  Create a Virtual Environment**
 
-
+```bash
 
 \# Windows
 
@@ -187,7 +187,9 @@ python -m venv venv
 
 venv\\Scripts\\activate
 
+```
 
+```bash
 
 \# macOS/Linux
 
@@ -195,15 +197,19 @@ python3 -m venv venv
 
 source venv/bin/activate
 
+```
+
 
 ---
 
 
 **3  Install Package Dependencies**
 
-
+```bash
 
 pip install -r requirements.txt
+
+```
 
 
 ---
@@ -211,9 +217,11 @@ pip install -r requirements.txt
 
 **4  Launch the Predictive Dashboard**
 
-
+```bash
 
 streamlit run app.py
+
+```
 
 Note: Your default web browser will automatically open a local interface window at http://localhost:8501. 
 
