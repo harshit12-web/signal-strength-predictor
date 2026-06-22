@@ -29,7 +29,7 @@ Unlike standard static academic scripts, this project bridges data science and s
 
 
 * Real-World Math Tuning: Blends the machine learning predictions with actual physics rules so the dashboard gives realistic results when you shift the link settings.
-'''bash
+---
 
 
 ### **Architecture Overview**
