@@ -126,7 +126,11 @@ Our validation pipeline maps the performance profiles across the entire dataset 
 
 
 
-Link
+<img width="1586" height="590" alt="__results___0_1" src="https://github.com/user-attachments/assets/1741f8db-cde5-4867-b2d1-f99c6b778bca" />
+
+
+
+<img width="1790" height="690" alt="__results___1_1" src="https://github.com/user-attachments/assets/68fe3eec-f7fa-4667-9b8f-5ef77d255452" />
 
 
 
@@ -138,7 +142,7 @@ This dashboard enables dynamic, interactive evaluation of User Equipment (UE) be
 
 
 
-Link
+<img width="1920" height="1022" alt="Screenshot (221)" src="https://github.com/user-attachments/assets/3889cea6-9223-4d59-af83-78d99a8f0d43" />
 
 
 
