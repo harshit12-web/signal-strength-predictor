@@ -1,0 +1,2 @@
+ features = np.array([[rsrp, rsrq, mcs]])
+    prediction = model.predict(features)[0]
