@@ -166,12 +166,13 @@ To set up and run this predictive dashboard locally, clone the repository, initi
 
 **1  Clone the Repository**
 
-
+```bash
 
 git clone \[https://github.com/harshit12-web/signal-strength-Predictor.git](https://github.com/harshit12-web/signal-strength-Predictor.git)
 
 cd signal-strength-Predictor
 
+```
 
 ---
 
